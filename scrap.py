@@ -17,7 +17,7 @@ def extract_href_links(url):
     except Exception as e:
         print(f"An error occurred: {e}")
         return None
-url = 'https://www.google.com/search?q=square root java codezclub'
+url = ''
 href_links = extract_href_links(url)
 
 # # if href_links:
